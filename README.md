@@ -7,54 +7,75 @@
 
 ## 📋 Sobre o projeto
 
-A **Calculadora de Consumo Elétrico** é um programa desenvolvido em **Python** que permite estimar o consumo mensal de energia elétrica de um aparelho.
+Programa desenvolvido em **Python** para calcular o consumo mensal de energia elétrica de um aparelho e estimar seu custo.
 
-Foi desenvolvido como atividade prática do curso de **Análise e Desenvolvimento de Sistemas**, com o objetivo de aplicar conceitos básicos de programação em Python e utilização do Git e GitHub.
+O usuário informa o nome do aparelho, sua potência em watts e o tempo médio de uso diário.
 
-
-## 🖥️ Exemplo de utilização
-
-Ao executar o programa, o usuário informa os dados do aparelho:
+## 🧮 Fórmula
 
 ```text
-⚡ CALCULADORA DE CONSUMO ELÉTRICO ⚡
-
-Digite o nome do aparelho: Geladeira
-Digite a potência do aparelho em watts (W): 150
-Digite o tempo médio de uso diário (em horas): 10
+Consumo mensal = (Potência × Horas por dia × 30) ÷ 1000
 ```
 
-O programa apresenta:
+O resultado é apresentado em **kWh/mês**.
+
+### 💰 Custo estimado
+
+O programa utiliza uma tarifa de referência de **R$ 0,75 por kWh**:
 
 ```text
-========================================
-RESULTADO
-========================================
-Aparelho: Geladeira
-Consumo estimado: 45.00 kWh/mês
-Custo estimado: R$ 33.75
-========================================
+Custo = Consumo mensal × 0,75
 ```
 
-## 🛠️ Tecnologias utilizadas
+> A tarifa utilizada é apenas uma referência para fins didáticos.
 
-* 🐍 **Python**
-* 🌳 **Git**
-* 🐙 **GitHub**
+## 🖥️ Exemplo
 
+```text
+Aparelho: Ferro de passar roupa
+Consumo estimado: 2400 kWh/mês
+Custo estimado: R$ 54.00
+```
 
-## 📚 Conceitos praticados
+## 🛠️ Tecnologias
 
-Durante o desenvolvimento do projeto foram utilizados conceitos fundamentais de programação, como:
+* 🐍 Python
+* 🌳 Git
+* 🐙 GitHub
 
-* Variáveis;
-* Entrada de dados com `input()`;
-* Conversão de dados com `float()`;
-* Operações matemáticas;
-* Cálculos com fórmulas;
-* Saída de dados com `print()`;
-* Formatação de strings com f-strings;
-* Formatação de números com duas casas decimais;
-* Versionamento com Git;
-* Publicação de projeto no GitHub.
+## ▶️ Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Isabela-Meira/Consumo-de-energia.git
+```
+
+2. Entre na pasta:
+
+```bash
+cd Consumo-de-energia
+```
+
+3. Execute:
+
+```bash
+python app.py
+```
+
+No Windows, também pode usar:
+
+```bash
+py app.py
+```
+
+## 👩‍💻 Autora
+
+**Isabela-Meira**
+
+Projeto desenvolvido para fins acadêmicos em **Análise e Desenvolvimento de Sistemas (ADS)**.
+
+---
+
+⚡ **Consumo consciente começa com informação!**
 

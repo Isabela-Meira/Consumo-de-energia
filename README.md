@@ -32,8 +32,10 @@ Custo = Consumo mensal × 0,75
 ## 🖥️ Exemplo
 
 ```text
-Aparelho: Ferro de passar roupa
-Consumo estimado: 2400 kWh/mês
+Aparelho: Ferro elétrico
+Potência: 2400 W
+Uso diário: 1 hora
+Consumo estimado: 72.00 kWh/mês
 Custo estimado: R$ 54.00
 ```
 
@@ -78,4 +80,3 @@ Projeto desenvolvido para fins acadêmicos em **Análise e Desenvolvimento de Si
 ---
 
 ⚡ **Consumo consciente começa com informação!**
-
